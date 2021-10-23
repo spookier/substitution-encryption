@@ -9,4 +9,3 @@
 <h4> Example: if the user inputs a key of YTNSHKVEFXRBAUQZCLWDMIPGJO and a plaintext of HELLO</h4>
 
 ![ok](https://user-images.githubusercontent.com/77325667/138556411-f7a7ee42-24ed-47e5-93d1-02363c7ab703.png)
-![ok](https://user-images.githubusercontent.com/77325667/138556427-11894d1e-fbd1-4aa6-9258-e1803549b481.png)
