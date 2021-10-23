@@ -7,4 +7,6 @@
 <h3>  Use: <code>./a.out [key] </code> </h3> <h4> Key must be a 26 only alphabet letters argument </h4>
 
 <h4> Example: if the user inputs a key of YTNSHKVEFXRBAUQZCLWDMIPGJO and a plaintext of HELLO</h4>
+
 ![ok](https://user-images.githubusercontent.com/77325667/138556411-f7a7ee42-24ed-47e5-93d1-02363c7ab703.png)
+![ok](https://user-images.githubusercontent.com/77325667/138556427-11894d1e-fbd1-4aa6-9258-e1803549b481.png)
