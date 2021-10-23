@@ -1,4 +1,4 @@
-<h3> Encrypting input by using encryption method called substitution alphabet. </h3>
+<h3> Encrypting input by using a substitution alphabet as encryption method. </h3>
 
 ![SUBSTITUTION](https://user-images.githubusercontent.com/77325667/138549796-476b5f06-37f6-4b8b-9d31-3113d7b99739.png)
 
