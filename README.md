@@ -4,7 +4,7 @@
 
 <h2> Usage</h2>
 <h3>  Use: <code>gcc substitution.c cs50.c </code> </h3>
-<h3>  Use: <code>./a.out [key] </code> </h3> <h4> Key must be a 26 only alphabet letters argument </h4>
+<h3>  Use: <code> a./out [key] </code> </h3> <h4> Key must be a 26 only alphabet letters passed as an argument </h4>
 
 <h2> Example</h2>
 <h4> User inputs a key of YTNSHKVEFXRBAUQZCLWDMIPGJO and a plaintext of HELLO</h4>
