@@ -18,30 +18,25 @@ int main(int argc, char * argv[]) {
     //                      YTNSHKVEFXRBAUQZCLWDMIPGJO
     char alphabetUpper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char alphabetLower[] = "abcdefghijklmnopqrstuvwxyz";
-    char allowedChars[] = "$`<@\"^[(\\{_},)]/+-~%%'?&|:!*.=>;#0123456789 "; //implement this
-    //char output[1000];
+    char allowedChars[] = "$`<@\"^[(\\{_},)]/+-~%%'?&|:!*.=>;#0123456789 ";
 
     if (argc != 2) {
         printf("Invalid command line arguments. Please enter only 26 alphabetical characters as argument.\n");
         return 1;
     }
 
-    // checkArray26(argv[1]);
-    // checkKey26(argv[1]);
-    // occurence(argv[1]);
-
     if (checkArray26(argv[1]) == 1 || checkKey26(argv[1]) == 1 || occurence(argv[1]) == 1) {
         return 1;
     }
 
-    strToUpper(argv, alphabetLower); //ytnshkvefxrbauqzclwdmipgjo or YTNSHKVEFXRBAUQZCLWDMIPGJO
+    strToUpper(argv, alphabetLower); 
 
     string input_plaintext = get_string("plaintext:");
     int kk = 0;
     while (input_plaintext[kk] != '\0') {
         kk++;
     }
-    //printf("ALLOWED CHARS: %s\n", allowedChars);
+
     char output[kk];
 
     if ((input_plaintext[j] >= 'A' && input_plaintext[j] <= 'Z') || (input_plaintext[j] >= 'a' && input_plaintext[j] <= 'z') ||
@@ -148,24 +143,24 @@ int occurence(char * arr) //testing for duplicates
         return 1;
     }
 
-    while (arr[i] != '\0') //1er loop pour traverser le string
+    while (arr[i] != '\0') 
     {
-        if (Seen[0] == 0) //one time check - Quand il est 0 on skip
+        if (Seen[0] == 0) //one time check 
         {
             Seen[0] = arr[0];
             i++;
             y++;
 
         }
-        while (Seen[passes] != '\0') // 2eme loop pour traverser Seen
+        while (Seen[passes] != '\0') 
         {
-            if (Seen[passes - 1] == arr[i]) //check comparaison
+            if (Seen[passes - 1] == arr[i]) //check
             {
                 printf("Duplicate char found at %c:%d - %c:%d\n", Seen[passes - 1], passes, arr[i], i + 1);
                 return 1;
 
             }
-            Seen[y] = arr[i]; //On l'ajoute pour comparer
+            Seen[y] = arr[i]; 
             passes++;
 
         }
